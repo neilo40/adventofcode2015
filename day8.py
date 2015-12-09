@@ -4,8 +4,8 @@ with open("inputs/day8.txt", 'r') as fh:
 
 def parse(string):
     s = string.decode('string_escape')
-    s = s.replace(r'\\', '.')
-    return len(s) - 2
+    num_bytes = len(s) - 2
+    return num_bytes
 
 
 total_code = 0

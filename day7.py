@@ -7,18 +7,10 @@ for line in lines:
     wires[parts[-1]] = parts[0:-2]
 
 
-def is_int(value):
-    try:
-        int(value)
-        return True
-    except ValueError:
-        return False
-
-
 def get_value_for_wire(wire):
     if wire in values:
         return values[wire]
-    elif is_int(wire):
+    elif wire.isdigit():
         value = int(wire)
     else:
         parts = wires[wire]
