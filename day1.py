@@ -11,7 +11,7 @@ for instruction in instructions:
     elif instruction == ')':
         floor -= 1
     if floor == -1:
-      print("In basement at position {}".format(position))
+        print("In basement at position {}".format(position))
 
 
 print("ended up on floor {}".format(floor))

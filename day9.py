@@ -1,5 +1,4 @@
 from itertools import permutations
-from collections import deque
 
 
 with open("inputs/day9.txt", 'r') as fh:
