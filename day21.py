@@ -1,5 +1,4 @@
 from itertools import combinations
-import sys
 
 stats = {"boss": {"hit_points": 104, "damage": 8, "armor": 1}}
 stats["player"] = {"hit_points": 100, "damage": 0, "armor": 0, "player": True}
